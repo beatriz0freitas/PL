@@ -1,0 +1,8 @@
+{
+    "INT": "\\d+",
+    "TEXT": "[a-zA-Z]+",
+    "LPAREN": "\\[",
+    "RPAREN": "\\]",
+    "COMMA": ",",
+    "IGNORE": "\\s+"
+}
