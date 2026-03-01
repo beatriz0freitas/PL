@@ -1,0 +1,118 @@
+<h1>Support Playbook</h1>
+This playbook is for support engineers handling tickets for the Report Generator.
+It emphasizes <em>repeatable triage</em> and <strong>clear communication</strong>.
+Inline tags like #support, ref#17, and issue#301 are normal text, not headers.
+
+<h2>Philosophy</h2>
+Support is a product surface.
+We optimize for <em>speed with accuracy</em> and <strong>calm escalation</strong>.
+
+<ul>
+ <li>Assume good intent and ask clarifying questions <em>once</em></li>
+ <li>Keep notes <strong>structured</strong> and time-stamped</li>
+ <li>Avoid copy-paste noise; write the <em>signal</em></li>
+ <li>Escalate early when impact is <strong>broad</strong></li>
+</ul>
+
+<h1>Common Requests</h1>
+These are the requests we see most often.
+Literal asterisks appear in examples like 6*7=42, *.txt, and backup*2026.
+
+<h2>Exports and Formatting</h2>
+Users commonly report issues with exports.
+
+<ul>
+ <li>“My export is empty” after applying filters</li>
+ <li>“The PDF looks different than the preview”</li>
+ <li>“The filename contains weird characters”</li>
+ <li>“The HTML export is missing <strong>sections</strong> or <em>emphasis</em>”</li>
+</ul>
+
+<h2>Performance Questions</h2>
+Performance complaints can be vague; use a consistent checklist.
+
+<ol>
+ <li>Ask for dataset size and time range</li>
+ <li>Confirm the user’s version and environment</li>
+ <li>Determine whether the slowdown is <em>new</em> or chronic</li>
+ <li>Check if the issue reproduces with <strong>defaults</strong></li>
+ <li>Collect a minimal reproduction</li>
+</ol>
+
+<h1>First Response Checklist</h1>
+The first reply should reduce uncertainty for the customer and for us.
+
+<ol>
+ <li>Restate the issue in one sentence</li>
+ <li>Ask for steps to reproduce, in <em>plain language</em></li>
+ <li>Request logs only if needed, and explain <strong>why</strong></li>
+ <li>Set expectations for next updates and timelines</li>
+ <li>Confirm priority based on impact</li>
+</ol>
+
+<h2>What Is Not a List</h2>
+References like version 2.0.1, section 4.2, and item 3.1 may appear in text.
+They are not list markers unless they start a line with "1. " and a space.
+Also, 1.ThisHasNoSpace should remain literal.
+
+<h1>Troubleshooting Guide</h1>
+Use these steps in order.
+Skip ahead only if you can explain <em>why</em>.
+
+<h2>Data and Permissions</h2>
+Many failures are permissions or data source issues.
+
+<ul>
+ <li>Verify the user has access to the dataset</li>
+ <li>Confirm the data source connection is reachable</li>
+ <li>Check for recent permission changes and <strong>revocations</strong></li>
+ <li>Ask whether the report template was recently edited</li>
+</ul>
+
+<h2>Templates and Layout</h2>
+Layout issues usually trace back to template configuration.
+
+<ol>
+ <li>Ask which template is used</li>
+ <li>Confirm whether the issue affects <em>all</em> exports</li>
+ <li>Check if the template contains <strong>required</strong> fields</li>
+ <li>Verify the export settings match the intended output</li>
+ <li>Ask for a screenshot if needed</li>
+</ol>
+
+<h1>Escalation Criteria</h1>
+Escalate when the issue exceeds routine handling.
+
+<ol>
+ <li>The issue affects multiple customers or a critical workflow</li>
+ <li>There is evidence of data loss or incorrect calculations</li>
+ <li>Recovery requires changes outside standard procedures</li>
+ <li>The issue persists beyond the <em>acceptable</em> window</li>
+ <li>The customer provides logs indicating <strong>system instability</strong></li>
+</ol>
+
+<h2>Recommended Language</h2>
+How you write matters.
+
+<ul>
+ <li>Use <em>empathetic</em> phrasing and avoid blame</li>
+ <li>Summarize the plan with <strong>clear next steps</strong></li>
+ <li>Confirm understanding before closing the ticket</li>
+ <li>Include a short recap and <em>expected</em> timeline</li>
+</ul>
+
+<h1>Follow-up and Closure</h1>
+Closing a ticket should increase trust.
+
+<ol>
+ <li>Document the resolution and any workaround</li>
+ <li>Link internal references like issue#888 and #postmortem</li>
+ <li>Add a brief knowledge base note with <strong>key learnings</strong></li>
+ <li>Confirm the customer is unblocked</li>
+ <li>Close the loop with a final summary that is <em>actionable</em></li>
+</ol>
+
+<ul>
+ <li>Final reminder: tokens like end*of*word and pre*post are not emphasis</li>
+ <li>Final reminder: inline #tags are not headers</li>
+</ul>
